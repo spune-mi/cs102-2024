@@ -1,4 +1,4 @@
 def text(message):
     return message
 
-print(text('hello, world'))
+print(text('hello, world!'))
