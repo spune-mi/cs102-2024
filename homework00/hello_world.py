@@ -1,4 +1,9 @@
-def text(message):
-    return message
+""" Модуль """
 
-print(text('hello, world'))
+
+def text():
+    """
+    Возвращает:
+        str: Строка 'message'.
+    """
+    return "message"
