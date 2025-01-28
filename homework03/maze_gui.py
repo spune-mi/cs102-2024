@@ -1,6 +1,7 @@
 import tkinter as tk
-from typing import List
 from tkinter import ttk, messagebox
+from typing import List
+
 from maze import bin_tree_maze, solve_maze, add_path_to_grid
 
 
@@ -51,4 +52,3 @@ if __name__ == "__main__":
     ttk.Button(window, text="Solve", command=show_solution).pack(pady=20)
 
     window.mainloop()
-
